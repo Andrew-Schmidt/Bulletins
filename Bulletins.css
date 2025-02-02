@@ -1,0 +1,49 @@
+Body{
+	
+	height: 100%;
+	width: 100%;
+	
+
+}
+input{
+	float: right;
+
+}
+
+.LeftSide{
+	width: 45%;
+	color: black;
+	float: left;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+}
+
+.RightSide{
+	width: 45%;
+	color: black;
+	float: left;
+}
+.Service{
+	text-align: center;
+}
+.OrderOfService p{
+	width: 40%;
+}
+#SundayName{
+	margin:0;
+}
+#Date{
+	margin:0;
+}
+
+#ContactInfo{
+	text-align: center;
+	line-height: .5;
+}
+#SermonName{
+	margin-left: 15%;
+}
+@media
+print{
+	@page {size: landscape;}
+}
