@@ -4,12 +4,13 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="Bulletins.css">
-	<title></title>
+	<title>Bulletins</title>
 <input type="file" id="csvFileInput" accept=".csv">
 </head>
 
 <body>
 <script src="Bulletins.js"></script>
+<div id = "blanket">
 <div class="LeftSide">
 <div id="ContactInfo">	
 <p>Mighty Fortress Evangelical Lutheran Church</p>
@@ -21,44 +22,47 @@
 <hr>
 <div class="Service">
 <p id="SundayName"></p>
-<p id="Date"></p>
+<p id="SundayDate"></p>
 </div>
 <hr>
 <div class="Prayer">
 	<p>Prayer Upon Entering Church:</p>
 	<p id="Prayer"></p>
-	<p id="BulletinPassage"> </p>
+	<p id="Passage"> </p>
 	<p>Pre-Service Hymns - Please use this time to prepare your hearts and minds for worship</p>
-</div>
+</div> 
 <hr>
 <div class="OrderOfService">
 <p>Today's Worship:</p>
-<p id="OpeningHymn"></p>
+<p id="H1"></p>
 <p>The Liturgy</p>
 <p>The Introit</p>
 <p>The Collect for the day</p>
-<div id="TheEpistle"></div>
+<div id="Epistle"></div>
 <p>The Gradual</p>
 </div>
 </div>
-</div>
+
 <div class="RightSide">
 <div class="OrderOfServiceRight">
 	
-<p id="TheGospelReading"></p>
+<p id="Gospel"></p>
 <p>The Apostles Creed: Page 12</p>
-<p id="SermonHymn"></p>
+<p id="H2"></p>
 <p id="SermonText"></p>
 <strong>
 	<u>
-		<p id="SermonName"></p>
+		<p id="Title"></p>
 	</u>
 </strong>
 <p id="TheOffertory"></p>
-<p id="ThirdHymn"></p>
-<p id="ClosingHymn"></p>
+<p id="H3"></p>
+<p id="H4"></p>
 <hr>
+
 <p id="News"></p>
+<p id="counter"></p>
+</div>
 </div>
 </div>
 </div>

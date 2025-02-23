@@ -15,83 +15,96 @@ function updateFieldsFromCSV(csvText) {
     if (rows.length < 2) return; // Ensure at least header and one row exist
 
     const headers = rows[0]; // First row contains column names
-    const data = rows[1]; // Second row contains actual values
+    const data = rows[1]; // Second row contains actual values 
 
     const mapping = {
+        "SundayDate": "SundayDate",
+        "Offering": "Offering",
+        "Epistle": "Epistle",
+        "Gospel": "Gospel",
+        "H1": "H1",
+        "H2": "H2",
+        "H3": "H3",
+        "H4": "H4",
+        "Title": "Title",
         "SundayName": "SundayName",
-        "Date": "Date",
-        "Prayer": "Prayer",
-        "BulletinPassage": "BulletinPassage",
-        "OpeningHymn": "OpeningHymn",
-        "TheEpistle": "TheEpistle",
-        "TheGospelReading": "TheGospelReading",
-        "SermonHymn": "SermonHymn",
         "SermonText": "SermonText",
-        "SermonName": "SermonName",
-        "TheOffertory": "TheOffertory",
-        "ThirdHymn": "ThirdHymn",
-        "ClosingHymn": "ClosingHymn",
-        "News": "News"
-
+        "Passage": "Passage",
+        "Prayer": "Prayer",
+        "News": "News",
+        "TheOffertory": "TheOffertory"
     };
 
     headers.forEach((header, index) => {
         const fieldId = mapping[header];
         let value = data[index];
+        console.log(fieldId)
+        console.log(value)
+        console.log(1)
 
-        // Custom Formatting
-        if (fieldId === "OpeningHymn") {
-            value = "Hymn: " + value; // Modify date format
+
+        
+        if (fieldId === "H1") {
+            value = "Hymn: " + value;
             console.log(value)
-            document.getElementById("OpeningHymn").innerText = value
+            document.getElementById("H1").innerText = value
+            console.log(2)
         }
-        else if (fieldId === "TheEpistle") {
-            value = "The Epistle: " + value; // Modify date format
+        else if (fieldId === "Epistle") {
+            value = "The Epistle: " + value;
             console.log(value)
-            document.getElementById("TheEpistle").innerText = value
+            document.getElementById("Epistle").innerText = value
+            console.log(3)
         }
-        else if (fieldId === "TheGospelReading") {
-            value = "The Gospel Reading: " + value; // Modify date format
+        else if (fieldId === "Gospel") {
+            value = "The Gospel Reading: " + value;
             console.log(value)
-            document.getElementById("TheGospelReading").innerText = value
+            document.getElementById("Gospel").innerText = value
+            console.log(4)       
         }
-        else if (fieldId === "SermonHymn") {
-            value = "The Sermon Hymn: " + value; // Modify date format
+        else if (fieldId === "H2") {
+            value = "The Sermon Hymn: " + value;
             console.log(value)
-            document.getElementById("SermonHymn").innerText = value
+            document.getElementById("H2").innerText = value
+            console.log(5)
         }
         else if (fieldId === "SermonText") {
-            value = "Sermon Text: " + value; // Modify date format
+            value = "Sermon Text: " + value;
             console.log(value)
             document.getElementById("SermonText").innerText = value
+            console.log(6)
         }
         else if (fieldId === "TheOffertory") {
-            value = "The Offertory: " + value; // Modify date format
+            value = "The Offertory: " + value;
             console.log(value)
             document.getElementById("TheOffertory").innerText = value
+            console.log(6)
         }
-        else if (fieldId === "ThirdHymn") {
-            value = "Hymn: " + value; // Modify date format
+        else if (fieldId === "H3") {
+            value = "Hymn: " + value;
             console.log(value)
-            document.getElementById("ThirdHymn").innerText = value
+            document.getElementById("H3").innerText = value
         }
 
-        else if (fieldId === "ClosingHymn") {
-            value = "Closing Hymn: " + value; // Modify date format
+        else if (fieldId === "H4") {
+            value = "Closing Hymn: " + value;
             console.log(value)
-            document.getElementById("ClosingHymn").innerText = value
+            document.getElementById("H4").innerText = value
+            console.log(7)
         }
-        //else if (true) {
-          //  console.log("test" + value)
-        //}
+        
         else if (fieldId && document.getElementById(fieldId)) {
             document.getElementById(fieldId).innerText = data[index].trim();
             console.log(value)
+            console.log(8)
         }
         console.log(`Field: ${header}, Value: "${value}"`);
-        value = "CongregationNews: " + value; // Modify date format
+        document.getElementById("News").innerText = value 
+        value = "Congregation News: " + value;
+        console.log(value)
         document.getElementById("News").innerText = value
-        
+        console.log(9)
+
     });
 document.getElementById("csvFileInput").remove();
-}
+};
