@@ -18,10 +18,10 @@ input{
 }
 
 .LeftSide{
-	width: 50%;
+	width: 46%;
 	color: black;
 	float: left;
-	margin-left: 2%;
+	##margin-left: 2%;
 	margin-right: 2%;
 }
 
