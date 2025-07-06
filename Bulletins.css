@@ -1,5 +1,5 @@
 *{
-	text-size-adjust: 11px;
+	text-size-adjust: 13px;
 }
 Body{
 	
@@ -18,7 +18,7 @@ input{
 }
 
 .LeftSide{
-	width: 46%;
+	width: 50%;
 	color: black;
 	float: left;
 	margin-left: 2%;
