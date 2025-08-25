@@ -1,6 +1,7 @@
 *{
-	text-size-adjust: 13px;
+	font-size: 14px;
 }
+
 Body{
 	
 	height: 100%;
@@ -12,6 +13,15 @@ input{
 	float: right;
 
 }
+.line {
+    position: absolute;
+    top: 0;
+    left: 50%; /* Middle horizontally */
+    transform: translateX(-50%); /* Center the line */
+    width: 2px; /* Thickness */
+    height: 100%; /* Full height */
+    background-color: black; /* Line color */
+  }
 .blanket{
 	margin-top: 5%;
 	margin-bottom: 5%;
@@ -21,8 +31,9 @@ input{
 	width: 47%;
 	color: black;
 	float: left;
-	margin-left: 2%;
-	margin-right: 2%;
+	margin-right: 3%;
+	margin-left: 1%;
+	
 }
 
 .RightSide{
