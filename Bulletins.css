@@ -13,6 +13,10 @@ input{
 	float: right;
 
 }
+hr{
+	font-size: 20px;
+}
+
 .line {
     position: absolute;
     top: 0;
@@ -25,6 +29,7 @@ input{
 .blanket{
 	margin-top: 5%;
 	margin-bottom: 5%;
+	margin-top: 5%;
 }
 
 .LeftSide{
