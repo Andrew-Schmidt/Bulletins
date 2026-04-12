@@ -31,7 +31,7 @@ function updateFieldsFromCSV(csvText) {
         "SermonText": "SermonText",
         "Passage": "Passage",
         "Prayer": "Prayer",
-        "News": "News",
+        "Announcements": "News",
         "TheOffertory": "TheOffertory"
     };
 
@@ -92,19 +92,27 @@ function updateFieldsFromCSV(csvText) {
             document.getElementById("H4").innerText = value
             console.log(7)
         }
+        else if (fieldId === "News") {
+            value = "Congregation News: " + value;
+            console.log(value)
+            document.getElementById("News").innerText = value
+            console.log(9)
+        }
         
         else if (fieldId && document.getElementById(fieldId)) {
             document.getElementById(fieldId).innerText = data[index].trim();
             console.log(value)
-            console.log(8)
+            console.log(8) 
         }
         console.log(`Field: ${header}, Value: "${value}"`);
-        document.getElementById("News").innerText = value 
-        value = "Congregation News: " + value;
+        //document.getElementById("News").innerText = value 
+        //value = "Congregation News: " + value;
         console.log(value)
-        document.getElementById("News").innerText = value
-        console.log(9)
+       // document.getElementById("News").innerText = value
+        //console.log(9)
 
     });
 document.getElementById("csvFileInput").remove();
+window.open('back.html', '_blank');
+
 };
