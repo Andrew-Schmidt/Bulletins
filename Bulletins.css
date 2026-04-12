@@ -1,6 +1,7 @@
 *{
-	font-size: 14px;
+	font-size: 16px;
 }
+
 Body{
 	
 	height: 100%;
@@ -12,33 +13,32 @@ input{
 	float: right;
 
 }
-img{
-	width: 25%;
-	float: right;
-	margin-top: ;
+hr{
+	font-size: 20px;
 }
-#spacer{
-	margin: 75%;
-	height: 10%;
-}
-.center{
-	margin-left: 15%;
 
-	font-family: lobster, cursive;
-	font-size: 16px;
-}
+.line {
+    position: absolute;
+    top: 0;
+    left: 50%; /* Middle horizontally */
+    transform: translateX(-50%); /* Center the line */
+    width: 2px; /* Thickness */
+    height: 100%; /* Full height */
+    background-color: black; /* Line color */
+  }
 .blanket{
 	margin-top: 5%;
 	margin-bottom: 5%;
+	margin-top: 5%;
 }
-.blanket-back{
-	margin-top: 2%;
-}
+
 .LeftSide{
-	width: 46%;
+	width: 47%;
 	color: black;
 	float: left;
-	margin-right: 2%;
+	margin-right: 3%;
+	margin-left: 1%;
+	
 }
 
 .RightSide{
@@ -53,31 +53,6 @@ img{
 .OrderOfService p{
 	width: 40%;
 }
-.Header{
-	text-decoration: underline;
-	font-weight: bold;
-}
-.Header-left{
-	float: left;
-	text-decoration: underline;
-	font-weight: bold;
-}
-.left{
-	float: left;
-	width: 50%;
-}
-
-
-
-
-#yrtd{
-	margin-bottom: 0;
-}
-#Full{
-	width: 100%;
-	margin: 0;
-}
-
 #SundayName{
 	margin:0;
 }
@@ -93,34 +68,8 @@ img{
 #Title{
 	margin-left: 15%;
 }
-#Birthdays{
-	width: 50%;
-	float: left;
-	height: 35%;
-}
-#Anniversaries{
-	width: 50%;
-	float: right;
-	height: 35%;
-}
-#Attendance{
-	float: left;
-	width: 50%;
-}
-#Attendance-num{
-
-}
-#Cleaning{
-	width: 50%;
-	float: right;
-}
-.Rx{
-	float: right;
-	width: 20%;
-}
-.Rx-left{
-	width: 80%;
 @media
 print{
 	@page {size: landscape;}
 }
+
