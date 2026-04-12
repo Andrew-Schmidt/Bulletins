@@ -127,7 +127,7 @@
 	],
 	"find":
 	{
-		"height": 41.6
+		"height": 29.6
 	},
 	"find_in_files":
 	{
@@ -226,7 +226,7 @@
 	"project": "Bulletins.sublime-project",
 	"replace":
 	{
-		"height": 76.8
+		"height": 56.0
 	},
 	"save_all_on_build": true,
 	"select_file":
