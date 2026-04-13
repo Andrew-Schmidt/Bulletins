@@ -99,7 +99,7 @@ img{
 #Birthdays{
 	width: 50%;
 	float: left;
-	height: 35%;
+	height: 12em;
 }
 #Birthdays p{
 	height: 1em;
@@ -107,7 +107,7 @@ img{
 #Anniversaries{
 	width: 50%;
 	float: right;
-	height: 35%;
+	height: 12em;
 }
 #Anniversaries p{
 	height: 1em;
