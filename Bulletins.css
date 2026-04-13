@@ -69,7 +69,10 @@ img{
 
 
 
-
+#Date{
+	margin-left: 25%;
+	width: 25%;
+}
 #yrtd{
 	margin-bottom: 0;
 }
@@ -98,21 +101,29 @@ img{
 	float: left;
 	height: 35%;
 }
+#Birthdays p{
+	height: 1em;
+}
 #Anniversaries{
 	width: 50%;
 	float: right;
 	height: 35%;
 }
+#Anniversaries p{
+	height: 1em;
+}
 #Attendance{
 	float: left;
 	width: 50%;
 }
-#Attendance-num{
 
-}
 #Cleaning{
 	width: 50%;
 	float: right;
+}
+#Cleaner{
+	float: right;
+	width: 50%;
 }
 .Rx{
 	float: right;
