@@ -40,9 +40,6 @@ function updateFieldsFromCSV(csvText) {
         console.log(fieldId)
         console.log(value)
         console.log(1)
-
-
-        
         
         
          if (fieldId && document.getElementById(fieldId)) {
@@ -50,7 +47,12 @@ function updateFieldsFromCSV(csvText) {
             console.log(value)
             console.log(8) 
         }
-       const y = new Date().getFullYear();
+        if (fieldId === "Rx-year") {
+        value = parseFloat(value).toFixed(0); // or Math.floor / Math.round
+        console.log(value)
+        document.getElementById("Rx-year").innerText = value;
+        }   
+        const y = new Date().getFullYear();
        document.getElementById("Date").innerText = data[4] + "-" + y;
         console.log(`Field: ${header}, Value: "${value}"`);
 
