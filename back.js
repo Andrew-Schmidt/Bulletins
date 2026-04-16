@@ -50,7 +50,8 @@ function updateFieldsFromCSV(csvText) {
             console.log(value)
             console.log(8) 
         }
-       document.getElementById("Date").innerText = data[4];
+       const y = new Date().getFullYear();
+       document.getElementById("Date").innerText = data[4] + "-" + y;
         console.log(`Field: ${header}, Value: "${value}"`);
 
 
