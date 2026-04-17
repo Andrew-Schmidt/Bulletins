@@ -42,7 +42,11 @@ function updateFieldsFromCSV(csvText) {
         console.log(value)
         console.log(1)
 
-
+        
+        if (value === "c"){
+            console.log("the value is", value);
+            document.getElementById("ServiceType").innerText = "The Nicene Creed: Page 22"
+        }
         
         if (fieldId === "H1") {
             value = "Hymn: " + value;
@@ -98,7 +102,6 @@ function updateFieldsFromCSV(csvText) {
             document.getElementById("News").innerText = value
             console.log(9)
         }
-        
         else if (fieldId && document.getElementById(fieldId)) {
             document.getElementById(fieldId).innerText = data[index].trim();
             console.log(value)
