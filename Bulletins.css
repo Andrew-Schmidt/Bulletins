@@ -15,7 +15,11 @@ input{
 img{
 	width: 25%;
 	float: right;
-	margin-top: ;
+	margin-left: 75%;
+}
+#YTlink{
+	float: right;
+	margin-right: 5%;
 }
 #spacer{
 	margin: 75%;
