@@ -21,13 +21,14 @@ img{
 	float: right;
 	margin-right: 5%;
 }
+/*
 #spacer{
 	margin: 75%;
 	height: 10%;
-}
+}*/
 .center{
 	margin-left: 15%;
-
+	margin-top:150%;
 	font-family: lobster, cursive;
 	font-size: 16px;
 }
