@@ -40,19 +40,29 @@ function updateFieldsFromCSV(csvText) {
         console.log(fieldId)
         console.log(value)
         console.log(1)
+
+
+        
         
         
          if (fieldId && document.getElementById(fieldId)) {
             document.getElementById(fieldId).innerText = data[index].trim();
             console.log(value)
-            console.log(8) 
+            console.log(8)
+        if (fieldId === "Rx-week") {
+            document.getElementById("Rx-week").innerText = "$" + value.trim();
         }
         if (fieldId === "Rx-year") {
-        value = parseFloat(value).toFixed(0); // or Math.floor / Math.round
-        console.log(value)
-        document.getElementById("Rx-year").innerText = value;
-        }   
-       document.getElementById("Date").innerText = data[4];
+            document.getElementById("Rx-year").innerText = "$" + value.trim();
+        }
+        if (fieldId === "gen-bud") {
+            document.getElementById("gen-bud").innerText = "$" + value.trim();
+        }
+        if (fieldId === "ytd") {
+            document.getElementById("ytd").innerText = "$" + value.trim();
+        }
+        }
+       document.getElementById("Date").innerText = data[1];
         console.log(`Field: ${header}, Value: "${value}"`);
 
 
