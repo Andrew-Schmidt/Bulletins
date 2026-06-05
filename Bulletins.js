@@ -9,7 +9,13 @@ document.getElementById("csvFileInput").addEventListener("change", function(even
     };
     reader.readAsText(file);
 });
-
+function toggleField() {
+    const checkbox = document.getElementById("Trinity");
+    const field = document.getElementById("ServiceType");
+    field.innerText = checkbox.checked
+        ? ""
+        : "The Athanasian Creed: Page 53";
+  }
 function updateFieldsFromCSV(csvText) {
     const rows = csvText.split("\n").map(row => row.split("|"));
     if (rows.length < 2) return; // Ensure at least header and one row exist
