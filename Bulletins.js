@@ -12,10 +12,12 @@ document.getElementById("csvFileInput").addEventListener("change", function(even
 function toggleField() {
     const checkbox = document.getElementById("Trinity");
     const field = document.getElementById("ServiceType");
+
     field.innerText = checkbox.checked
-        ? ""
-        : "The Athanasian Creed: Page 53";
-  }
+        ? "The Athanasian Creed: Page 53"
+        : "The Apostles Creed: Page 12";
+}
+
 function updateFieldsFromCSV(csvText) {
     const rows = csvText.split("\n").map(row => row.split("|"));
     if (rows.length < 2) return; // Ensure at least header and one row exist
@@ -121,7 +123,7 @@ function updateFieldsFromCSV(csvText) {
         //console.log(9)
 
     });
-document.getElementById("csvFileInput").remove();
-window.open('back.html', '_blank');
-
+    document.getElementById("csvFileInput").remove();
+    document.getElementById("Trinity").remove();
+    window.open('back.html', '_blank');
 };
