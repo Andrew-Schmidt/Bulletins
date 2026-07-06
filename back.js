@@ -91,7 +91,7 @@ if (d === 1) {
 else if (d === 2) {
     document.getElementById("Cleaner").innerText = "February: Ken & Teresa Brown";
     document.getElementById("Next-Cleaner").innerText = "March: Eric & Theresa Schmidt";
-    document.getElementById("birth-1").innerText = "Lukas Ford  Feb: 18";
+    document.getElementById("birth-1").innerText = "Lukas Ford  2/18";
     document.getElementById("birth-2").innerText = "";
     document.getElementById("birth-3").innerText = "";
     document.getElementById("birth-4").innerText = "";
@@ -105,8 +105,8 @@ else if (d === 2) {
 else if (d === 3) {
     document.getElementById("Cleaner").innerText = "March: Eric & Theresa Schmidt";
     document.getElementById("Next-Cleaner").innerText = "April: Brian & Rebecca Zimmer";
-    document.getElementById("birth-1").innerText = "Bridgette Brown Mar: 6";
-    document.getElementById("birth-2").innerText = "Theresa Schmidt Mar: 23";
+    document.getElementById("birth-1").innerText = "Bridgette Brown 3/6";
+    document.getElementById("birth-2").innerText = "Theresa Schmidt 3/23";
     document.getElementById("birth-3").innerText = "";
     document.getElementById("birth-4").innerText = "";
     document.getElementById("birth-5").innerText = "";
@@ -119,12 +119,12 @@ else if (d === 3) {
 else if (d === 4) {
     document.getElementById("Cleaner").innerText = "April: Brian & Rebecca Zimmer";
     document.getElementById("Next-Cleaner").innerText = "May: Fritz & Sharon Sachtleben";
-    document.getElementById("birth-1").innerText = "Andrew Schmidt Apr: 13";
-    document.getElementById("birth-2").innerText = "Elijah Schmidt Apr: 14";
+    document.getElementById("birth-1").innerText = "Andrew Schmidt 4/13";
+    document.getElementById("birth-2").innerText = "Elijah Schmidt 4/14";
     document.getElementById("birth-3").innerText = "";
     document.getElementById("birth-4").innerText = "";
     document.getElementById("birth-5").innerText = "";
-    document.getElementById("ann-1").innerText = "Lukas & Mackenzie Ford  Apr: 15"
+    document.getElementById("ann-1").innerText = "Lukas & Mackenzie Ford  4/15"
     document.getElementById("ann-2").innerText = "";
     document.getElementById("ann-3").innerText = "";
     document.getElementById("ann-4").innerText = "";
@@ -133,10 +133,10 @@ else if (d === 4) {
 else if (d === 5) {
     document.getElementById("Cleaner").innerText = "May: Fritz & Sharon Sachtleben";
     document.getElementById("Next-Cleaner").innerText = "June: Alex & Bridgette Brown";
-    document.getElementById("birth-1").innerText = "Don Walsh May: 13";
-    document.getElementById("birth-2").innerText = "Kristen Walsh May: 13";
-    document.getElementById("birth-3").innerText = "Nathan Pederson May: 18";
-    document.getElementById("birth-4").innerText = "Betty Albers May: 6";
+    document.getElementById("birth-1").innerText = "Don Walsh 5/13";
+    document.getElementById("birth-2").innerText = "Kristen Walsh 5/13";
+    document.getElementById("birth-3").innerText = "Nathan Pederson 5/18";
+    document.getElementById("birth-4").innerText = "Betty Albers 5/6";
     document.getElementById("birth-5").innerText = "";
     document.getElementById("ann-1").innerText = "";
     document.getElementById("ann-2").innerText = "";
@@ -147,12 +147,12 @@ else if (d === 5) {
 else if (d === 6) {
     document.getElementById("Cleaner").innerText = "June: Alex & Bridgette Brown";
     document.getElementById("Next-Cleaner").innerText = "July: Ken & Teresa Brown";
-    document.getElementById("birth-1").innerText = "Edith Pederson June: 27";
+    document.getElementById("birth-1").innerText = "Edith Pederson 6/27";
     document.getElementById("birth-2").innerText = "";
     document.getElementById("birth-3").innerText = "";
     document.getElementById("birth-4").innerText = "";
     document.getElementById("birth-5").innerText = "";
-    document.getElementById("ann-1").innerText = "Alex & Bridgette Brown June: 9";
+    document.getElementById("ann-1").innerText = "Alex & Bridgette Brown 6/9";
     document.getElementById("ann-2").innerText = "";
     document.getElementById("ann-3").innerText = "";
     document.getElementById("ann-4").innerText = "";
@@ -161,38 +161,38 @@ else if (d === 6) {
 else if (d === 7) {
     document.getElementById("Cleaner").innerText = "July: Ken & Teresa Brown";
     document.getElementById("Next-Cleaner").innerText = "August: Don & Kristen";
-    document.getElementById("birth-1").innerText = "Liam Walsh Jul: 10";
-    document.getElementById("birth-2").innerText = "Noah Mendiola Jul: 14";
-    document.getElementById("birth-3").innerText = "Agelita Mendiola Jul: 21";
-    document.getElementById("birth-4").innerText = "Rebecca Zimmer Jul: 31";
+    document.getElementById("birth-1").innerText = "Liam Walsh 7/10";
+    document.getElementById("birth-2").innerText = "Noah Mendiola 7/14";
+    document.getElementById("birth-3").innerText = "Agelita Mendiola 7/21";
+    document.getElementById("birth-4").innerText = "Rebecca Zimmer 7/31";
     document.getElementById("birth-5").innerText = "";
-    document.getElementById("ann-1").innerText = "Josh & Molly Jul: 14";
-    document.getElementById("ann-2").innerText = "Don & Kristen Walsh   Jul: 25";
-    document.getElementById("ann-3").innerText = "Dan & Sandy Pederson  Jul: 28";
+    document.getElementById("ann-1").innerText = "Josh & Molly 7/14";
+    document.getElementById("ann-2").innerText = "Don & Kristen Walsh   7/25";
+    document.getElementById("ann-3").innerText = "Dan & Sandy Pederson  7/28";
     document.getElementById("ann-4").innerText = "";
     document.getElementById("ann-5").innerText = "";
 }
 else if (d === 8) {
     document.getElementById("Cleaner").innerText = "August: Don & Kristen Walsh";
     document.getElementById("Next-Cleaner").innerText = "September: Eric & Theresa Schmidt";
-    document.getElementById("birth-1").innerText = "Oliver Benson   Aug: 23";
-    document.getElementById("birth-2").innerText = "Molly Lang Aug: 18";
-    document.getElementById("birth-3").innerText = "Liz Mislich Aug: 31";
-    document.getElementById("birth-4").innerText = "Genevieve Brown Aug: 11";
-    document.getElementById("birth-5").innerText = "Paul Pederson Aug: 1";
-    document.getElementById("birth-6").innerText = "Eric Schmidt Aug: 28";
-    document.getElementById("ann-1").innerText = "Fritz and Sharon Sachtleben Aug: 11";
-    document.getElementById("ann-2").innerText = "Herb & Edith Pederson Aug: 9";
-    document.getElementById("ann-3").innerText = "Pastor & Debbie Pederson Aug: 21";
+    document.getElementById("birth-1").innerText = "Oliver Benson   8/23";
+    document.getElementById("birth-2").innerText = "Molly Lang 8/18";
+    document.getElementById("birth-3").innerText = "Liz Mislich 8/31";
+    document.getElementById("birth-4").innerText = "Genevieve Brown 8/11";
+    document.getElementById("birth-5").innerText = "Paul Pederson 8/1";
+    document.getElementById("birth-6").innerText = "Eric Schmidt 8/28";
+    document.getElementById("ann-1").innerText = "Fritz and Sharon Sachtleben 8/11";
+    document.getElementById("ann-2").innerText = "Herb & Edith Pederson 8/9";
+    document.getElementById("ann-3").innerText = "Pastor & Debbie Pederson 8/21";
     document.getElementById("ann-4").innerText = "";
     document.getElementById("ann-5").innerText = "";
 }
 else if (d === 9) {
     document.getElementById("Cleaner").innerText = "September: Eric & Theresa Schmidt";
     document.getElementById("Next-Cleaner").innerText = "October: Brian & Rebecca Zimmer";
-    document.getElementById("birth-1").innerText = "Brian Zimmer Sep: 11";
-    document.getElementById("birth-2").innerText = "Mark Mendiola Sep: 17";
-    document.getElementById("birth-3").innerText = "Alex Brown  Sep: 20";
+    document.getElementById("birth-1").innerText = "Brian Zimmer 9/11";
+    document.getElementById("birth-2").innerText = "Mark Mendiola 9/17";
+    document.getElementById("birth-3").innerText = "Alex Brown  9/20";
     document.getElementById("birth-4").innerText = "";
     document.getElementById("birth-5").innerText = "";
     document.getElementById("ann-1").innerText = "";
@@ -204,12 +204,12 @@ else if (d === 9) {
 else if (d === 10) {
     document.getElementById("Cleaner").innerText = "October: Brian & Rebecca Zimmer";
     document.getElementById("Next-Cleaner").innerText = "November: Brian & Rebecca Zimmer";
-    document.getElementById("birth-1").innerText = "Fallon Walsh Oct: 9";
-    document.getElementById("birth-2").innerText = "Mackenzie Pederson Oct: 14";
-    document.getElementById("birth-3").innerText = "Herb Pederson Oct: 15";
-    document.getElementById("birth-4").innerText = "Dan Pederson Oct: 20";
+    document.getElementById("birth-1").innerText = "Fallon Walsh 10/9";
+    document.getElementById("birth-2").innerText = "Mackenzie Pederson 10/14";
+    document.getElementById("birth-3").innerText = "Herb Pederson 10/15";
+    document.getElementById("birth-4").innerText = "Dan Pederson 10/20";
     document.getElementById("birth-5").innerText = "";
-    document.getElementById("ann-1").innerText = "Brian & Rebecca Zimmer Oct: 6";
+    document.getElementById("ann-1").innerText = "Brian & Rebecca Zimmer 10/6";
     document.getElementById("ann-2").innerText = "";
     document.getElementById("ann-3").innerText = "";
     document.getElementById("ann-4").innerText = "";
@@ -218,7 +218,7 @@ else if (d === 10) {
 else if (d === 11) {
     document.getElementById("Cleaner").innerText = "November: Brian & Rebecca Zimmer";
     document.getElementById("Next-Cleaner").innerText = "December: Debbie & Pastor Pederson";
-    document.getElementById("birth-1").innerText = "Luther Ford Nov: 7";
+    document.getElementById("birth-1").innerText = "Luther Ford 11/7";
     document.getElementById("birth-2").innerText = "";
     document.getElementById("birth-3").innerText = "";
     document.getElementById("birth-4").innerText = "";
@@ -232,12 +232,12 @@ else if (d === 11) {
 else if (d === 12) {
     document.getElementById("Cleaner").innerText = "December: Debbie & Pastor Pederson";
     document.getElementById("Next-Cleaner").innerText = "January: Alex & Bridgette";
-    document.getElementById("birth-1").innerText = "Mary Ellen Delia Dec: 17";
+    document.getElementById("birth-1").innerText = "Mary Ellen Delia 12/17";
     document.getElementById("birth-2").innerText = "";
     document.getElementById("birth-3").innerText = "";
     document.getElementById("birth-4").innerText = "";
     document.getElementById("birth-5").innerText = "";
-    document.getElementById("ann-1").innerText = "Eric & Theresa Schmidt Dec: 27";
+    document.getElementById("ann-1").innerText = "Eric & Theresa Schmidt 12/27";
     document.getElementById("ann-2").innerText = "";
     document.getElementById("ann-3").innerText = "";
     document.getElementById("ann-4").innerText = "";
