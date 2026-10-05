@@ -203,7 +203,7 @@ else if (d === 9) {
 }
 else if (d === 10) {
     document.getElementById("Cleaner").innerText = "October: Brian & Rebecca Zimmer";
-    document.getElementById("Next-Cleaner").innerText = "November: Brian & Rebecca Zimmer";
+    document.getElementById("Next-Cleaner").innerText = "November: Dan and Sandy Pederson and Maryellen";
     document.getElementById("birth-1").innerText = "Fallon Walsh 10/9";
     document.getElementById("birth-2").innerText = "Mackenzie Pederson 10/14";
     document.getElementById("birth-3").innerText = "Herb Pederson 10/15";
@@ -216,7 +216,7 @@ else if (d === 10) {
     document.getElementById("ann-5").innerText = "";
 }
 else if (d === 11) {
-    document.getElementById("Cleaner").innerText = "November: Brian & Rebecca Zimmer";
+    document.getElementById("Cleaner").innerText = "November: Dan and Sandy Pederson and Maryellen";
     document.getElementById("Next-Cleaner").innerText = "December: Debbie & Pastor Pederson";
     document.getElementById("birth-1").innerText = "Luther Ford 11/7";
     document.getElementById("birth-2").innerText = "";
