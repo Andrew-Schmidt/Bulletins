@@ -219,7 +219,7 @@ else if (d === 11) {
     document.getElementById("Cleaner").innerText = "November: Dan and Sandy Pederson and Maryellen Delia";
     document.getElementById("Next-Cleaner").innerText = "December: Debbie & Pastor Pederson";
     document.getElementById("birth-1").innerText = "Luther Ford 11/7";
-    document.getElementById("birth-2").innerText = "";
+    document.getElementById("birth-2").innerText = "Teresa Brown 11/18";
     document.getElementById("birth-3").innerText = "";
     document.getElementById("birth-4").innerText = "";
     document.getElementById("birth-5").innerText = "";
